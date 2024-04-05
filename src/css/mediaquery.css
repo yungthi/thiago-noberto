@@ -1,0 +1,142 @@
+
+
+/* Media query para telas de celular */
+@media only screen and (max-width: 600px) {
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px; 
+    }
+    
+    .cabecalho .logo {
+        width: 45px; 
+        height: 45px; 
+        line-height: 45px; 
+    }
+    
+    .cabecalho .menu li a {
+        font-size: 14px; 
+        padding: 8px 15px; 
+    }
+    
+    .home {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px;
+    }
+    
+    .home .informacoes {
+        padding: 50px; /* Aqui altera o espaço do texto*/
+        max-width: 100%;
+        position: relative;
+    }
+    
+    .home .informacoes h1 {
+        font-size: 20px; 
+        margin-bottom: 15px; 
+    }
+    
+    .home .informacoes p {
+        font-size: 16px; 
+        margin-bottom: 10px; 
+    }
+    
+    .home .redes-sociais {
+        /* background-color: blueviolet;  */
+        text-align: center;
+        margin: auto;
+        gap: 25px; 
+    }
+    
+    .home .redes-sociais a i {
+        width: 40px; 
+        height: 40px; 
+        font-size: 20px; 
+    }
+    
+    
+    .cabecalho {
+        padding: 10px; /* Reduzir o padding para telas de celular */
+    }
+
+    .cabecalho .logo {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        text-decoration: underline;
+        text-align: center;
+        line-height: 55px;
+        font-family: "Raleway", sans-serif;
+        transition: 0.2s;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 20px;
+        padding: 6px 10px; 
+    }
+
+    .home {
+        padding: 10px; 
+    }
+
+    .home .informacoes h1 {
+        font-size: 30px; 
+        margin-bottom: 10px; 
+    }
+
+    .home .informacoes p {
+        font-size: 18px; 
+        margin-bottom: 8px;
+    }
+
+    .home .redes-sociais a i {
+        width: 55px; 
+        height: 55px; 
+        font-size: 35px; 
+    }
+
+    .home .container-foto .foto {
+        max-width: 200px; 
+        display: flex;
+        justify-content: center;
+    }
+
+    .projetos .titulo {
+        font-size: 24px; 
+        padding: 20px 0; 
+    }
+    .home .container-foto .foto {
+        max-width: 550px; 
+    }
+    
+    .home .container-foto img {
+        width: 70%; 
+        text-align: center;
+    }
+    
+    .projetos .titulo {
+        font-size: 30px; 
+        padding: 40px 0; 
+    }
+    
+    .projetos .container-projetos {
+        gap: 10px; 
+    }
+    
+    .projetos .projeto {
+        max-width: 260px;
+        max-height: 500px;
+        position: relative;
+        display: none;
+    }
+    
+    .projetos .projeto img {
+        width: 100%; 
+    }
+}
+
+
